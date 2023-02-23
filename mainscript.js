@@ -8,7 +8,7 @@ start();
 
 function start() {
   console.log("Start!");
-  sayHello("Tom");
+  sayHello("Timothy");
 }
 
 function sayHello(name) {
