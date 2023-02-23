@@ -12,7 +12,7 @@ function start() {
 }
 
 function sayHello(name) {
-  const greeting = makeSpaces(`Hello ${capitalize(name)}`);
+  const greeting = makeSpaces(`Yo ${capitalize(name)}`);
   document.querySelector("#output").textContent = greeting;
   console.log("greeting", greeting);
 }
